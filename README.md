@@ -1,4 +1,4 @@
 cv
 ==
 
-Professionnal website (CV website)
+Professionnal static website (CV website)
