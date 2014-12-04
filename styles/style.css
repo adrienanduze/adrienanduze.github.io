@@ -1,0 +1,135 @@
+* { /*Intial*/
+	margin: 0;
+	padding: 0;
+	font-family: Arial, serif;
+}
+
+body { /*Fond général*/
+	background-color: grey;
+	min-width: 850px;
+}
+
+h1 { /*Alignement titre*/
+	padding: 50px auto;
+	width: auto;
+	text-align: center;
+}
+
+h2 { /*Alignement titre <h2>*/
+	padding-left: 50px;
+}
+
+a{ /*Pas de style sur les liens*/
+	text-decoration: none;
+	color: inherit;
+}
+
+div{ /*Espacement entre div*/
+	padding: 20px 0;
+}
+
+header li { /*Menu horizontal*/
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	text-align: center;
+}
+
+header li a:hover { /*Menu horizontal*/
+	border-bottom: 1px solid black;
+}
+
+header ul { /*Menu horizontal*/
+	height: 30px;
+	margin: 20px auto;
+	width: 804px;
+	padding: 0px;
+}
+
+footer li{ /*Icones horizontales*/
+	float: left;
+	list-style: none;
+}
+
+footer ul { /*Icones horizontales*/
+	width: 300px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+footer a { /*Icones horizontales*/
+	display: block;
+}
+
+footer a, footer li { /*Icones horizontales*/
+	width: 50px;
+	height: 50px;
+}
+
+footer img{ /*Icones centrée dans <li>*/
+	margin: 5px;
+}
+
+footer img:hover{ /*Agrandissement image*/
+	margin: 0px;
+	height: 50px;
+	width: 50px;
+	transition: all 0.2s;
+}
+
+figcaption { /*Description en italique*/
+	font-style: italic;
+	padding-left: 20px;
+}
+
+div li { /*Alignement <li>*/
+	padding-left: 10px;
+	list-style: none;
+}
+
+#presentation p { /*Style texte présentation*/
+	font-style: italic;
+	margin-top: 5px;
+	padding: 0 30px;
+	text-align: justify;
+}
+
+#competences ul li ul li{ /*Taille d'un type de compétence*/
+	height: 40px;
+}
+
+#informatique li{ /*Espacement entre */
+	margin-bottom: 10px;
+}
+
+#competences ul li ul li ul li{ /*Compétences informatiques alignées*/
+	float: left;
+	height: 20px;
+}
+
+#competences ul li figure li { /*Taille description langue*/
+	height: 20px;
+}
+
+figure{ /*Espacements entre <figure>*/
+	padding-bottom: 10px;
+}
+
+#experiences, #projets, #presentation{ /*Background noir et text blanc*/
+	background-color: black;
+	color: white;
+}
+
+#language li{
+	float: left;
+	padding: 0;
+	margin-left: 5px;
+}
+
+#language ul{
+	height: 20px;
+}
+
+#language {
+	padding: 0px;
+}

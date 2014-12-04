@@ -3,33 +3,51 @@
     <head>
 		<title>Adrien Anduze</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<!--<link rel="stylesheet" href="/style/style.css" />
-		<link rel="icon" href="/img/favicon.ico" />-->
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+		<!--<link rel="icon" href="/img/favicon.ico" />-->
     </head>
 
 	<body>
+		<div id="language">
+			<small>
+				<ul>
+					<li><a href="index.html">FR</a></li>
+					<li> - </li>
+					<li><a href="eng.html">ENG</a></li>
+				</ul>
+			</small>
+		</div>
 		<header>
 			<h1>Adrien Anduze</h1>
-			<ul>
+			<ul class="ligne">
 				<li><a href="#presentation">Présentation</a></li>
+				<li> - </li>
 				<li><a href="#formation">Formation</a></li>
-				<li><a href="#experience">Expérience professionnelle</a></li>
+				<li> - </li>
+				<li class="long" style="width:200px;"><a href="#experience">Expérience professionnelle</a></li>
+				<li> - </li>
 				<li><a href="#competences">Compétences</a></li>
+				<li> - </li>
 				<li><a href="#projets">Projets</a></li>
+				<li> - </li>
 				<li><a href="#loisirs">Loisirs</a></li>
 				<!--<li><a href="#contact">Contact</a></li>-->
 			</ul>
 		</header>
 
 		<div id="presentation">
-			<h2>A mon propos</h2>
+			<h2><i class="fa fa-quote-left"></i> A mon propos <i class="fa fa-quote-right"></i></h2>
 			<p>
-				//Presentation
+				Depuis mon enfance je suis passionné par l'informatique. De mes premiers PowerPoints à mes derniers <a href="https://github.com/adrienanduze" target="blank"><u>projets</u></a>, j'ai su me confronter à diverses facettes de ce vaste domaine. En commençant par le traitement de texte, tableur ou les présentations sous un aspect scolaire, en me divertissant grâce aux jeux vidéo, en partageant des créations du traitement de l'image, en démontant mes premiers PCs et finalement en programmant mes premiers programme, j'ai été séduit par tout ces aspects.
+			</p>
+			<p>
+				
 			</p>
 		</div>
 
 		<div id="formation">
-			<h2>Formation</h2>
+			<h2><i class="fa fa-pencil"></i> Formation</h2>
 			<ul>
 				<figure>
 					<li>IUT Informatique à Blagnac (31)</li>
@@ -48,8 +66,8 @@
 			</ul>
 		</div>
 
-		<div id="experience">
-			<h2>Expériences professionnelles</h2>
+		<div id="experiences">
+			<h2><i class="fa fa-road"></i> Expériences professionnelles</h2>
 			<ul>
 				<figure>
 					<li>Projet tutoré dans le cadre du DUT Informatique</li>
@@ -68,7 +86,7 @@
 				</figure>
 
 				<figure>
-					<li>Webmaster de la boutique en ligne <a href="http://www.tonce.fr" target="blank" title="Boutique Toncé">Tonce.fr</a></li>
+					<li>Webmaster de la boutique en ligne <a href="http://www.tonce.fr" target="blank" title="Boutique Toncé"><u>Tonce.fr</u></a></li>
 					<figcaption>
 						Construire d'une e-boutique à partir de Prestashop<br />
 						Maintenance du site
@@ -101,16 +119,18 @@
 		</div>
 
 		<div id="competences">
-			<h2>Compétences</h2>
+			<h2><i class="fa fa-check-square-o"></i> Compétences</h2>
 			<ul>
 				<li>
 					<h3>Informatique</h3>
-					<ul><!--Informatique-->
+					<ul id="informatique"><!--Informatique-->
 						<li>
 							<h4>Environnements</h4>
-							<ul>
+							<ul><!--Environnements-->
 								<li>Windows</li>
+								<li> - </li>
 								<li>MacOSX</li>
+								<li> - </li>
 								<li>Linux Ubuntu</li>
 							</ul>
 						</li>
@@ -119,8 +139,16 @@
 							<h4>Logiciels</h4>
 							<ul>
 								<li>Traitement de texte</li>
+								<li> - </li>
 								<li>Tableur</li>
+								<li> - </li>
 								<li>Traitement de l'image (suite Adobe)</li>
+								<li> - </li>
+								<li>Eclipse</li>
+								<li> - </li>
+								<li>Code::Blocks</li>
+								<li> - </li>
+								<li>Sublime Text 2</li>
 							</ul>
 						</li>
 
@@ -128,11 +156,16 @@
 							<h4>Langages</h4>
 							<ul>
 								<li>Java</li>
+								<li> - </li>
 								<li>C</li>
-								<li>HTML</li>
-								<li>CSS</li>
+								<li> - </li>
+								<li>HTML5</li>
+								<li> - </li>
+								<li>CSS3</li>
+								<li> - </li>
 								<li>PHP</li>
-								<li>SQL (Oracle 10g, MySQL)</li>
+								<li> - </li>
+								<li>SQL(Oracle 10g, MySQL)</li>
 							</ul>
 						</li>
 					</ul>
@@ -141,26 +174,38 @@
 				<li>
 					<h3>Langues</h3>
 					<ul>
-						<li>Anglais - Bonne notion</li>
-						<li>Espagnol - Notion</li>
+						<figure>
+							<li>Anglais</li>
+							<figcaption>
+								Bonnes notions, technique
+							</figcaption>
+						</figure>
+						<figure>
+							<li>Espagnol</li>
+							<figcaption>
+								Notions
+							</ficaption>
+						</figure>
 					</ul>
 				</li>
 			</ul>
 		</div>
 
 		<div id="projets">
-			<h2>Projets</h2>
+			<h2><i class="fa fa-folder-open"></i> Projets</h2>
 			<ul>
 				<li>Piano virtuel (développé en C)</li>
-				<li>Site personnel (développé en PHP)</li>
+				<li><a href="http://polyad.fr" target="blank"><u>Site personnel</u></a> (développé en PHP et MySQL)</li>
+				<li>Morpion (développé en Java)</li>
 			</ul>
+			<br />
 			<p>
-				D'autres projets sont disponible sur ma <a href="https://github.com/adrienanduze" target="blank" title="adrienanduze sur GitHub">page GitHub</a>.
+				<i>D'autres projets sont disponible sur ma <a href="https://github.com/adrienanduze" target="blank" title="adrienanduze sur GitHub"><u>page GitHub</u></a></i>.
 			</p>
 		</div>
 
 		<div id="loisirs">
-			<h2>Loisirs</h2>
+			<h2><i class="fa fa-users"></i> Loisirs</h2>
 			<ul>
 				<figure>
 					<li>Musique</li>
@@ -179,9 +224,9 @@
 				<figure>
 					<li>Autour de l'informatique</li>
 					<figcaption>
-						Co-organisation d'une <a href="https://www.youtube.com/playlist?list=PLIKsVSssuPoM7yKQl2aBGJQWd-9-LeN7p" target="blank" title="Vidéos des conférences et trailer">Cryptoparty</a> à l'IUT de Blagnac (31)<br />
-						Participation à des "<a href="http://fr.wikipedia.org/wiki/Coding_Dojo" target="Blank" title="Coding Dojo">Coding Dojo</a>"<br />
-						Présence lors de divers évènement (<a href="http://www.epitech.eu/blogs/Google-IO-Extended-2014-Keynote-Conferences-France.html" target="blank" title="Google I/O Extended à Epitech">Google I/O Extended à Epitech</a>, <a href="http://toulousejs.francejs.org/#toulousejs-5" target="blank" title="Toulouse JS #5">Toulouse JS #5</a>)
+						Co-organisation d'une <a href="https://www.youtube.com/playlist?list=PLIKsVSssuPoM7yKQl2aBGJQWd-9-LeN7p" target="blank" title="Vidéos des conférences et trailer"><u>Cryptoparty</u></a> à l'IUT de Blagnac (31)<br />
+						Participation à des "<a href="http://fr.wikipedia.org/wiki/Coding_Dojo" target="Blank" title="Coding Dojo"><u>Coding Dojo</u></a>"<br />
+						Présence lors de divers évènement (<a href="http://www.epitech.eu/blogs/Google-IO-Extended-2014-Keynote-Conferences-France.html" target="blank" title="Google I/O Extended à Epitech"><u>Google I/O Extended à Epitech</u></a>, <a href="http://toulousejs.francejs.org/#toulousejs-5" target="blank" title="Toulouse JS #5"><u>Toulouse JS #5</u></a>)
 					</figcaption>
 				</figure>
 			</ul>
@@ -189,8 +234,62 @@
 
 		<footer>
 			<ul>
-				<li><a href="http://fr.linkedin.com/pub/adrien-anduze/93/31b/b01" target="blank" title="Mon profil LinkedIn">LinkedIn</a></li>
-				<li><a href="http://fr.viadeo.com/fr/profile/adrien.anduze" target="blank" title="Mon profil Viadeo">Viadeo</a></li>
+				<li>
+					<a href="http://fr.linkedin.com/pub/adrien-anduze/93/31b/b01" target="blank" title="Mon profil LinkedIn">
+						<img src="./img/LinkedIn_simple.png" 
+							alt="Logo LinkedIn" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
+				<li>
+					<a href="http://fr.viadeo.com/fr/profile/adrien.anduze" target="blank" title="Mon profil Viadeo">
+						<img src="./img/Viadeo_simple.png" 
+							alt="Logo Viadeo" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.twitter.com/adrienanduze" target="blank" title="@adrienanduze">
+						<img src="./img/Twitter_simple.png" 
+							alt="Logo Twitter" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="https://www.youtube.com/channel/UC6XP8G7UFHOZCqlImBDSFHA/feed" target="blank" title="Ma page YouTube">
+						<img src="./img/Youtube_simple.png" 
+							alt="Logo YouTube" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/+AdrienAnduze" target="blank" title="Ma page Google+">
+						<img src="./img/Googleplus_simple.png" 
+							alt="Logo Google+" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/adrienanduze" target="blank" title="Ma page GitHub">
+						<img src="./img/Github_simple.png" 
+							alt="Logo GitHub" 
+							height="40px" 
+							width="40px"
+						>
+					</a>
+				</li>
 			</ul>
 		</footer>
 	</body>
